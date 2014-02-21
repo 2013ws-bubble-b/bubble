@@ -88,6 +88,7 @@ void DrawRectangle(float topLeftX, float topLeftY, float bottomRightX, float bot
 	//TODO: Maybe glFinish needed here instead - if there's some bad graphics crap
 	glFlush();
 }
+
 void DrawTexture(float topLeftX, float topLeftY, float bottomRightX, float bottomRightY)
 {
 	glEnableClientState(GL_TEXTURE_COORD_ARRAY);
@@ -112,6 +113,7 @@ XnFloat Colors[][3] =
 	{1,1,.5},
 	{1,1,1}
 };
+
 XnUInt32 nColors = 10;
 
 void glPrintString(void *font, char *str)
