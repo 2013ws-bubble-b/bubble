@@ -22,9 +22,9 @@
 //---------------------------------------------------------------------------
 // Includes
 //---------------------------------------------------------------------------
-#include "SceneDrawer.h"
-
 #include <GL/glut.h>
+#include <math.h>
+#include "SceneDrawer.h"
 
 
 extern xn::UserGenerator g_UserGenerator;
@@ -407,4 +407,5 @@ void DrawDepthMap(const xn::DepthMetaData& dmd, const xn::SceneMetaData& smd)
 			glEnd();
 		}
 	}
+	
 }

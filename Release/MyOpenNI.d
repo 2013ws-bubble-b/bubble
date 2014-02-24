@@ -1,4 +1,4 @@
-Release/main.d Release/main.o: main.cpp \
+Release/MyOpenNI.d Release/MyOpenNI.o: MyOpenNI.cpp MyOpenNI.h \
  /home_nfs/2013ws_bubble_b/kinect/openni/Platform/Linux-x86/Redist/Include/XnOpenNI.h \
  /home_nfs/2013ws_bubble_b/kinect/openni/Platform/Linux-x86/Redist/Include/XnTypes.h \
  /home_nfs/2013ws_bubble_b/kinect/openni/Platform/Linux-x86/Redist/Include/XnStatus.h \
@@ -52,10 +52,9 @@ Release/main.d Release/main.o: main.cpp \
  /home_nfs/2013ws_bubble_b/kinect/openni/Platform/Linux-x86/Redist/Include/XnCodecIDs.h \
  /home_nfs/2013ws_bubble_b/kinect/openni/Platform/Linux-x86/Redist/Include/XnCppWrapper.h \
  /home_nfs/2013ws_bubble_b/kinect/openni/Platform/Linux-x86/Redist/Include/XnPropNames.h \
- /usr/include/GL/glut.h /usr/include/GL/freeglut_std.h \
- /usr/include/GL/gl.h /usr/include/GL/glext.h /usr/include/inttypes.h \
- /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/GL/glu.h \
- /usr/include/sys/time.h SceneDrawer.h MyOpenNI.h
+ /usr/include/sys/time.h SceneDrawer.h
+
+MyOpenNI.h:
 
 /home_nfs/2013ws_bubble_b/kinect/openni/Platform/Linux-x86/Redist/Include/XnOpenNI.h:
 
@@ -221,24 +220,6 @@ Release/main.d Release/main.o: main.cpp \
 
 /home_nfs/2013ws_bubble_b/kinect/openni/Platform/Linux-x86/Redist/Include/XnPropNames.h:
 
-/usr/include/GL/glut.h:
-
-/usr/include/GL/freeglut_std.h:
-
-/usr/include/GL/gl.h:
-
-/usr/include/GL/glext.h:
-
-/usr/include/inttypes.h:
-
-/usr/include/stdint.h:
-
-/usr/include/bits/wchar.h:
-
-/usr/include/GL/glu.h:
-
 /usr/include/sys/time.h:
 
 SceneDrawer.h:
-
-MyOpenNI.h:

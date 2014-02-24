@@ -5,11 +5,14 @@ INC_DIRS = /home_nfs/2013ws_bubble_b/kinect/openni/Platform/Linux-x86/Redist/Inc
 
 SRC_FILES = \
 	main.cpp \
-	SceneDrawer.cpp
+	MyOpenNI.cpp \
+	SceneDrawer.cpp 
 
 EXE_NAME = bubbleXtreme
 
 USED_LIBS += glut
+USED_LIBS += GL
+USED_LIBS += GLU
 USED_LIBS += OpenNI
 
 LIB_DIRS += /usr/lib
